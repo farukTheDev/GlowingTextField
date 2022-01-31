@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'GlowingTextField_Example' do
+  pod 'GlowingTextField', :path => '../'
+
+  target 'GlowingTextField_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
