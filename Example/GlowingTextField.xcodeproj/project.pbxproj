@@ -32,7 +32,7 @@
 		0A532E26D2A5FB7818684251 /* Pods-GlowingTextField_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlowingTextField_Tests.release.xcconfig"; path = "Target Support Files/Pods-GlowingTextField_Tests/Pods-GlowingTextField_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		0BA0EC69B3B7CE9CE5808258 /* Pods-GlowingTextField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlowingTextField_Example.release.xcconfig"; path = "Target Support Files/Pods-GlowingTextField_Example/Pods-GlowingTextField_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3F074046698AE4E09DD454F4 /* Pods-GlowingTextField_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlowingTextField_Example.debug.xcconfig"; path = "Target Support Files/Pods-GlowingTextField_Example/Pods-GlowingTextField_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4AFEA442BBE8319231A78BE3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4AFEA442BBE8319231A78BE3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* GlowingTextField_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlowingTextField_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,9 +44,9 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		9CD4CBB21BA2DD65D09EB4BF /* Pods_GlowingTextField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GlowingTextField_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A68CC3431A0B142EB92F6DE2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A68CC3431A0B142EB92F6DE2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B7C3C71DE1E1385AEDAB2CC2 /* Pods_GlowingTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GlowingTextField_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB0AFB52290D7F4B747D98E5 /* GlowingTextField.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GlowingTextField.podspec; path = ../GlowingTextField.podspec; sourceTree = "<group>"; };
+		BB0AFB52290D7F4B747D98E5 /* GlowingTextField.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GlowingTextField.podspec; path = ../GlowingTextField.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				05834C39BAD623A3612C3126 /* Pods-GlowingTextField_Tests.debug.xcconfig */,
 				0A532E26D2A5FB7818684251 /* Pods-GlowingTextField_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,10 +212,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = PDS2F42P75;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = PDS2F42P75;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -227,6 +228,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -478,6 +480,7 @@
 			baseConfigurationReference = 3F074046698AE4E09DD454F4 /* Pods-GlowingTextField_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PDS2F42P75;
 				INFOPLIST_FILE = GlowingTextField/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -493,6 +496,7 @@
 			baseConfigurationReference = 0BA0EC69B3B7CE9CE5808258 /* Pods-GlowingTextField_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PDS2F42P75;
 				INFOPLIST_FILE = GlowingTextField/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -507,6 +511,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 05834C39BAD623A3612C3126 /* Pods-GlowingTextField_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = PDS2F42P75;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -529,6 +534,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0A532E26D2A5FB7818684251 /* Pods-GlowingTextField_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = PDS2F42P75;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

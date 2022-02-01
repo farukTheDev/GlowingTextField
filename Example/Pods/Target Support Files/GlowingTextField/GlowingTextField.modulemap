@@ -1,0 +1,6 @@
+framework module GlowingTextField {
+  umbrella header "GlowingTextField-umbrella.h"
+
+  export *
+  module * { export * }
+}

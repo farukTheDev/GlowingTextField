@@ -1,0 +1,16 @@
+PODS:
+  - GlowingTextField (0.1.0)
+
+DEPENDENCIES:
+  - GlowingTextField (from `../`)
+
+EXTERNAL SOURCES:
+  GlowingTextField:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GlowingTextField: cc9d118a57000385fd13643dcfe41d3e70ecd68f
+
+PODFILE CHECKSUM: 70068bcb830b749fb46a2b5e8ef995e8a972b0eb
+
+COCOAPODS: 1.11.2

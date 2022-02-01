@@ -7,12 +7,30 @@
 //
 
 import UIKit
+import GlowingTextField
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var tfC: GlowingTextField!
+    @IBOutlet weak var tfB: GlowingTextField!
+    @IBOutlet weak var tfA: GlowingTextField!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        tfA.glowColor = UIColor.magenta.cgColor
+        //tfA.textBackgroundColor = .black
+        tfA.textColor = .white
+        
+        
+        tfB.glowColor = UIColor.systemPink.cgColor
+        //tfB.textBackgroundColor = .black
+        tfB.textColor = .systemPink
+        
+        tfC.glowColor = UIColor.cyan.cgColor
+        //tfC.textBackgroundColor = .black
+        tfC.textColor = .cyan
+        
     }
 
     override func didReceiveMemoryWarning() {
