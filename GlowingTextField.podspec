@@ -22,12 +22,12 @@ Pod::Spec.new do |s|
                        DESC
 
   s.homepage         = 'https://github.com/farukTheDev/GlowingTextField'
-  s.screenshots     = 'https://imgur.com/eDjY5RW',
-                        'https://imgur.com/mp27nFb',
-                        'https://imgur.com/RSxvBgt',
-                        'https://imgur.com/AEnwZxP',
-                        'https://imgur.com/YuMwOJW',
-                        'https://imgur.com/vbHdVr4' #'www.example.com/screenshots_2'
+  s.screenshots     = 'https://imgur.com/eDjY5RW.png',
+                        'https://imgur.com/mp27nFb.png',
+                        'https://imgur.com/RSxvBgt.png',
+                        'https://imgur.com/AEnwZxP.png',
+                        'https://imgur.com/YuMwOJW.png',
+                        'https://imgur.com/vbHdVr4.png' #'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'farukTheDev' => 'farukkisik.dev@gmail.com' }
   s.source           = { :git => 'https://github.com/farukTheDev/GlowingTextField.git', :tag => s.version.to_s }
