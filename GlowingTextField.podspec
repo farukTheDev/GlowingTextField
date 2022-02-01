@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+'A light weight library for making textfields look fancier. Easy to use and customize.'
                        DESC
 
   s.homepage         = 'https://github.com/farukTheDev/GlowingTextField'
@@ -26,9 +26,15 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'farukTheDev' => 'farukkisik.dev@gmail.com' }
   s.source           = { :git => 'https://github.com/farukTheDev/GlowingTextField.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://twitter.com/farukTheDev'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '13.0'
+  
+  s.swift_version = '4.0'
+  
+  s.platforms = {
+      "ios": "13.0"
+  }
 
   s.source_files = 'GlowingTextField/Classes/**/*'
   
