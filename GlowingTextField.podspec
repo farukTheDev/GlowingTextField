@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GlowingTextField'
-  s.version          = '0.1.1'
+  s.version          = '1.0.1'
   s.summary          = 'A light weight library for making textfields look fancier.'
 
 # This description is used to generate tags and improve search results.
